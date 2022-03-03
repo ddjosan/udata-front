@@ -12,7 +12,7 @@ I18N_ROOT = 'udata_front/theme/gouvfr/translations'
 
 THEME_ROOT = os.path.join(ROOT, 'udata_front/theme', 'gouvfr')
 
-LANGUAGES = ['fr']
+LANGUAGES = ['fr','sr']
 
 TO_CLEAN = ['build', 'dist', '**/*.pyc', 'reports']
 
