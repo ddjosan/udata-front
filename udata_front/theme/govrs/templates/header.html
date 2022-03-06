@@ -26,9 +26,18 @@
                 <div class="row align-items-center">
                     <div class="col-auto header-logo">
                         <a href="{{ url_for('site.home') }}" title="{{ _('Go back to home page') }}">
-                            {% include theme('svg/marianne.svg') %}
+                             
+                                <img
+                                    src="{{ theme_static('img/op_logo.png') }}"
+                                    width="100"
+                                    height="126"
+                                    loading="lazy"
+                                    alt="Portal otvorenih podataka"
+                                   
+                                />
+                            
                         </a>
-                    </div>
+                    </div>  
                     <nav
                             class="col hidden visible-xl mobile-menu row-inline justify-end self-start vuejs"
                             role="navigation"
@@ -48,11 +57,15 @@
                             {% include theme('svg/close.svg') %}
                         </a>
                     </nav>
-                    <div class="col-auto ml-lg ml-xl-0 col-xl-12 header-service">
+                    <div class="site-title">
+                        <div class="rs">Република Србија</div>
+                        <div class="pop"><a href="/">Портал отворених података</a></div>
+                    </div>
+<!--                     <div class="col-auto ml-lg ml-xl-0 col-xl-12 header-service">
                         <a href="{{ url_for('site.home') }}" title="{{ _('Go back to home page') }}">
                             {% include theme('svg/logotype.svg') %}
                         </a>
-                    </div>
+                    </div> -->
                     <div class="col login-box row-inline justify-end align-items-center">
                         {% if current_user.is_authenticated %}
                         <div class="row-inline align-items-center">

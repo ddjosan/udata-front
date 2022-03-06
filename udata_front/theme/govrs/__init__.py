@@ -42,21 +42,21 @@ WP_TIMEOUT = 5
 FEED_THUMBNAIL_MIMES = ('image/jpeg', 'image/png', 'image/webp')
 
 
-gouvfr_menu = nav.Bar('gouvfr_menu', [
+govrs_menu = nav.Bar('govrs_menu', [
     nav.Item(_('Data'), 'datasets.list'),
     nav.Item(_('Reuses'), 'reuses.list'),
     nav.Item(_('Organizations'), 'organizations.list'),
     nav.Item(_('News'), 'posts.list'),
-    nav.Item(_('About'), 'gouvfr.show_page', args={'slug': 'about/ressources'}),
-    nav.Item(_('Contact us'), None, url='https://support.data.gouv.fr/'),
+    # nav.Item(_('About'), 'govrs.show_page', args={'slug': 'about/ressources'}),
+    # nav.Item(_('Contact us'), None, url='https://support.data.gouv.fr/'),
 ])
 
-theme.menu(gouvfr_menu)
+theme.menu(govrs_menu)
 
 opendata_links = [
     nav.Item(_('News'), 'posts.list'),
-    nav.Item(_('Reference Data'), 'gouvfr.show_page', args={'slug': 'spd/reference'}),
-    nav.Item(_('Featured topics'), 'gouvfr.show_page', args={'slug': 'donnees-cles-par-sujet'}),
+    # nav.Item(_('Reference Data'), 'govrs.show_page', args={'slug': 'spd/reference'}),
+    # nav.Item(_('Featured topics'), 'govrs.show_page', args={'slug': 'donnees-cles-par-sujet'}),
     nav.Item(_('Portal for European data'), None, url='https://data.europa.eu'),
 ]
 
@@ -71,39 +71,39 @@ if export_dataset_id:
                              _external=True)
         opendata_links.append(nav.Item(_('Data catalog'), None, url=export_url))
 
-nav.Bar('gouvfr_opendata', opendata_links)
+nav.Bar('govrs_opendata', opendata_links)
 
 
 support_links = [
-    nav.Item(_("Platform's documentation"), None, url='https://doc.data.gouv.fr'),
+    # nav.Item(_("Platform's documentation"), None, url='https://doc.data.gouv.fr'),
     nav.Item(_("Portal's API"), None, url=current_app.config.get('API_DOC_EXTERNAL_LINK', '#')),
-    nav.Item(_('Open data guides'), None, url=current_app.config.get('ETALAB_GUIDES_URL', '#')),
-    nav.Item(_('Contact us'), None, url='https://support.data.gouv.fr'),
+    # nav.Item(_('Open data guides'), None, url=current_app.config.get('ETALAB_GUIDES_URL', '#')),
+    # nav.Item(_('Contact us'), None, url='https://support.data.gouv.fr'),
 ]
 
-nav.Bar('gouvfr_support', support_links)
+nav.Bar('govrs_support', support_links)
 
 footer_links = [
-    nav.Item(_('Licences'), 'gouvfr.show_page', args={'slug': 'legal/licences'}),
-    nav.Item(_('Terms of use'), 'site.terms'),
-    nav.Item(_('Tracking and privacy'), 'gouvfr.suivi'),
-    nav.Item(_('Accessibility'), 'gouvfr.show_page', args={'slug': 'legal/accessibility'}),
+    nav.Item(_('Licences'), 'govrs.show_page', args={'slug': 'legal/licences'}),
+    # nav.Item(_('Terms of use'), 'site.terms'),
+    # nav.Item(_('Tracking and privacy'), 'gouvfr.suivi'),
+    # nav.Item(_('Accessibility'), 'govrs.show_page', args={'slug': 'legal/accessibility'}),
 ]
 
-nav.Bar('gouvfr_footer', footer_links)
+nav.Bar('govrs_footer', footer_links)
 
 NETWORK_LINKS = [
-    ('Gouvernement.fr', 'http://www.gouvernement.fr'),
-    ('France.fr', 'http://www.france.fr'),
-    ('Legifrance.gouv.fr', 'http://www.legifrance.gouv.fr'),
-    ('Service-public.fr', 'http://www.service-public.fr'),
-    ('Opendata France', 'http://opendatafrance.net'),
-    ('CADA.fr', 'http://www.cada.fr'),
-    ('Etalab.gouv.fr', 'https://www.etalab.gouv.fr'),
+    ('GOV RS', 'http://www.gov.rs'),
+    # ('France.fr', 'http://www.france.fr'),
+    # ('Legifrance.gouv.fr', 'http://www.legifrance.gouv.fr'),
+    # ('Service-public.fr', 'http://www.service-public.fr'),
+    # ('Opendata France', 'http://opendatafrance.net'),
+    # ('CADA.fr', 'http://www.cada.fr'),
+    # ('Etalab.gouv.fr', 'https://www.etalab.gouv.fr'),
 ]
 
 nav.Bar(
-    'gouvfr_network',
+    'govrs_network',
     [nav.Item(label, label, url=url) for label, url in NETWORK_LINKS]
 )
 

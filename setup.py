@@ -40,8 +40,7 @@ setup(
     python_requires='>=3.7',
     install_requires=get_requirements(),
     entry_points={
-        'udata.themes': [
-            'gouvfr = udata_front.theme.gouvfr',
+        'udata.themes': [           
             'govrs = udata_front.theme.govrs',
         ],
         'udata.models': [

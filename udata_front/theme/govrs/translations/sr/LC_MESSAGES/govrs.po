@@ -165,13 +165,13 @@ msgstr "Додајте на свој сајт"
 #: udata_front/theme/govrs/templates/embed-dataset.html:206
 #: udata_front/theme/govrs/templates/header.html:47
 msgid "Close"
-msgstr "Затвори"
+msgstr "Затворите"
 
 #: udata_front/theme/govrs/templates/dataset/display.html:285
 #: udata_front/theme/govrs/templates/embed-dataset.html:206
 #: udata_front/theme/govrs/templates/reuse/display.html:192
 msgid "Embed"
-msgstr "Угради"
+msgstr "Уградите"
 
 #: udata_front/theme/govrs/templates/dataset/display.html:222
 #: udata_front/theme/govrs/templates/dataset/search-result.html:46
@@ -460,7 +460,7 @@ msgstr "Предложите промену"
 #: udata_front/theme/govrs/templates/participez/participez.html:18
 #: udata_front/theme/govrs/templates/publish-action-modal.html:11
 msgid "Publish a dataset"
-msgstr "Објави скуп података"
+msgstr "Објавите скуп података"
 
 #. This is a call to action details.
 #: udata_front/theme/govrs/templates/publish-action-modal.html:15
@@ -555,15 +555,15 @@ msgstr "Прочитајте ваш профил, организацију ко�
 
 #: udata_front/theme/govrs/templates/api/oauth_authorize.html:42
 msgid "Publish data"
-msgstr "Објави податке"
+msgstr "Објавите податке"
 
 #: udata_front/theme/govrs/templates/api/oauth_authorize.html:43
 msgid "Publish datasets, reuses, follow or unfollow"
-msgstr "Објави сетове података, примера употребе, запрати или престани праћење"
+msgstr "Објавите сетове података, примера употребе, запрати или престани праћење"
 
 #: udata_front/theme/govrs/templates/api/oauth_authorize.html:54
 msgid "Refuse"
-msgstr "Одби"
+msgstr "Одбијте"
 
 #: udata_front/theme/govrs/templates/api/oauth_authorize.html:61
 msgid "Accept"
