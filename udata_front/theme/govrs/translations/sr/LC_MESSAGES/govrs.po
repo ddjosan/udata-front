@@ -887,8 +887,8 @@ msgid "favourites"
 msgstr "омиљени"
 
 #: udata_front/theme/govrs/templates/dataset/resource/card.html:10
-msgid "Дугме за измене"
-msgstr ""
+msgid "Edit button"
+msgstr "Дугме за измене"
 
 #: udata_front/theme/govrs/templates/dataset/resource/card.html:16
 msgid "downloads"
@@ -1044,7 +1044,7 @@ msgstr "Опадајуће"
 
 #: udata_front/theme/govrs/templates/macros/search.html:53
 msgid "Export"
-msgstr ""
+msgstr "Извоз"
 
 #: udata_front/theme/govrs/templates/macros/search.html:122
 #: udata_front/theme/govrs/templates/macros/search.html:160
@@ -1782,8 +1782,8 @@ msgid "Datasets related to the county of %(name)s with INSEE code %(code)s"
 msgstr "Скупови података повезани са округом %(name)s са INSEE кодом %(code)s"
 
 #: udata_front/theme/govrs/templates/territories/departement.html:50
-msgid "Главни градови:"
-msgstr ""
+msgid "Main cities:"
+msgstr "Главни градови:"
 
 #: udata_front/theme/govrs/templates/territories/home.html:5
 #: udata_front/theme/govrs/templates/territories/home.html:6
@@ -1869,7 +1869,7 @@ msgstr "%(site)s %(username)s профил"
 
 #: udata_front/theme/govrs/templates/user/base.html:9
 msgid "user"
-msgstr корисник""
+msgstr "корисник"
 
 #: udata_front/theme/govrs/templates/user/base.html:9
 msgid "profile"
