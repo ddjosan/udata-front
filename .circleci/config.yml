@@ -144,7 +144,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - udata_front/theme/gouvfr/static
+            - udata_front/theme/govrs/static
             - udata_front/theme/manifest.json
 
   dist:

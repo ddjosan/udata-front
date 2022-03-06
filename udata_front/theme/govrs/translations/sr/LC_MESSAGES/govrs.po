@@ -1,0 +1,1973 @@
+# Serbian translations for udata-front.
+
+
+msgid ""
+msgstr ""
+"Project-Id-Version: udata-front 1.2.4.dev0\n"
+"Report-Msgid-Bugs-To: admin@data.gov.rs\n"
+"POT-Creation-Date: 2022-03-02 22:47+0100\n"
+"PO-Revision-Date: 2022-03-02 22:47+0100\n"
+"Last-Translator: Data.gov.rs Team <admin@data.gov.rs>\n"
+"Language: sr\n"
+"Language-Team: Data.gov.rs Team <admin@data.gov.rs>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: udata_front/models.py:16 udata_front/theme/govrs/__init__.py:58
+msgid "Reference Data"
+msgstr ""
+
+#: udata_front/models.py:17
+msgid "Transport"
+msgstr "Транспорт"
+
+#: udata_front/frontend/helpers.py:194
+msgid "Anonymous user"
+msgstr "Анонимни корисник"
+
+#: udata_front/frontend/helpers.py:298
+msgctxt "month-format"
+msgid "yyyy/MM"
+msgstr "MM.YYYY."
+
+#: udata_front/frontend/helpers.py:302
+msgctxt "day-format"
+msgid "yyyy/MM/dd"
+msgstr "dd.MM.YYYY."
+
+#: udata_front/frontend/helpers.py:321
+#, python-format
+msgid "%(start)s to %(end)s"
+msgstr "%(start) до %(end)"
+
+#: udata_front/theme/govrs/__init__.py:46 udata_front/views/site.py:177
+msgid "Data"
+msgstr "Подаци"
+
+#: udata_front/theme/govrs/__init__.py:47
+#: udata_front/theme/govrs/templates/dataset/display.html:332
+#: udata_front/theme/govrs/templates/dataset/display.html:418
+#: udata_front/theme/govrs/templates/home.html:70
+#: udata_front/theme/govrs/templates/organization/display.html:56
+#: udata_front/theme/govrs/templates/organization/display.html:104
+#: udata_front/theme/govrs/templates/page.html:35
+#: udata_front/theme/govrs/templates/post/display.html:75
+#: udata_front/theme/govrs/templates/reuse/display.html:31
+#: udata_front/theme/govrs/templates/reuse/list.html:5
+#: udata_front/theme/govrs/templates/reuse/list.html:15
+#: udata_front/theme/govrs/templates/reuse/list.html:52
+#: udata_front/theme/govrs/templates/site/dashboard.html:22
+#: udata_front/theme/govrs/templates/user/following.html:16
+#: udata_front/theme/govrs/templates/user/reuses.html:8
+#: udata_front/views/site.py:186
+msgid "Reuses"
+msgstr "Примери употребе"
+
+#: udata_front/theme/govrs/__init__.py:48
+#: udata_front/theme/govrs/templates/home.html:72
+#: udata_front/theme/govrs/templates/organization/display.html:20
+#: udata_front/theme/govrs/templates/organization/list.html:7
+#: udata_front/theme/govrs/templates/organization/list.html:17
+#: udata_front/theme/govrs/templates/organization/list.html:35
+#: udata_front/theme/govrs/templates/site/dashboard.html:24
+#: udata_front/theme/govrs/templates/user/base.html:97
+#: udata_front/theme/govrs/templates/user/following.html:17
+#: udata_front/views/site.py:201
+msgid "Organizations"
+msgstr "Организације"
+
+#: udata_front/theme/govrs/__init__.py:49
+#: udata_front/theme/govrs/__init__.py:57
+#: udata_front/theme/govrs/templates/home.html:47
+#: udata_front/theme/govrs/templates/post/display.html:17
+msgid "News"
+msgstr "Вести"
+
+#: udata_front/theme/govrs/__init__.py:50
+msgid "About"
+msgstr "Основни подаци"
+
+#: udata_front/theme/govrs/__init__.py:51
+#: udata_front/theme/govrs/__init__.py:81
+msgid "Contact us"
+msgstr "Контактирајте нас"
+
+#: udata_front/theme/govrs/__init__.py:59
+#: udata_front/theme/govrs/templates/home.html:20
+msgid "Featured topics"
+msgstr "Истакнуте теме"
+
+#: udata_front/theme/govrs/__init__.py:60
+msgid "Portal for European data"
+msgstr "Портал европских података"
+
+#: udata_front/theme/govrs/__init__.py:72
+msgid "Data catalog"
+msgstr "Каталог података"
+
+#: udata_front/theme/govrs/__init__.py:78
+msgid "Platform's documentation"
+msgstr "Документација платформе"
+
+#: udata_front/theme/govrs/__init__.py:79
+msgid "Portal's API"
+msgstr "АПИ портала"
+
+#: udata_front/theme/govrs/__init__.py:80
+msgid "Open data guides"
+msgstr "Упутства за отворене податке"
+
+#: udata_front/theme/govrs/__init__.py:87
+msgid "Licences"
+msgstr "Лиценце"
+
+#: udata_front/theme/govrs/__init__.py:88
+msgid "Terms of use"
+msgstr "Услови коришћења"
+
+#: udata_front/theme/govrs/__init__.py:89
+msgid "Tracking and privacy"
+msgstr "Праћење и приватност"
+
+#: udata_front/theme/govrs/__init__.py:90
+msgid "Accessibility"
+msgstr "Приступачност"
+
+#: udata_front/theme/govrs/templates/base.html:8
+msgid "You must be connected to do this action."
+msgstr "Морате бити повезани за ову акцију."
+
+#: udata_front/theme/govrs/templates/carousel.html:6
+msgid "Best reuse cases"
+msgstr "Најбољи примери употребе"
+
+#: udata_front/theme/govrs/templates/embed-dataset.html:169
+msgid "Download from "
+msgstr "Преузмите са "
+
+#: udata_front/theme/govrs/templates/api/card.html:14
+#: udata_front/theme/govrs/templates/dataset/display.html:148
+#: udata_front/theme/govrs/templates/embed-dataset.html:177
+msgid "Producer"
+msgstr "Произвео"
+
+#: udata_front/theme/govrs/templates/embed-dataset.html:183
+msgid "Uploader"
+msgstr "Објавио"
+
+#: udata_front/theme/govrs/templates/embed-dataset.html:205
+msgid "Add to your own website"
+msgstr "Додајте на свој сајт"
+
+#: udata_front/theme/govrs/templates/embed-dataset.html:206
+#: udata_front/theme/govrs/templates/header.html:47
+msgid "Close"
+msgstr "Затвори"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:285
+#: udata_front/theme/govrs/templates/embed-dataset.html:206
+#: udata_front/theme/govrs/templates/reuse/display.html:192
+msgid "Embed"
+msgstr "Угради"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:222
+#: udata_front/theme/govrs/templates/dataset/search-result.html:46
+#: udata_front/theme/govrs/templates/embed-dataset.html:209
+msgid "Temporal coverage"
+msgstr "Временски опсег"
+
+#: udata_front/theme/govrs/templates/embed-dataset.html:213
+msgid "to"
+msgstr "до"
+
+#: udata_front/theme/govrs/templates/embed-dataset.html:221
+msgid "Granularity"
+msgstr "Грануларност"
+
+#: udata_front/theme/govrs/templates/embed-dataset.html:225
+msgid "Territory"
+msgstr "Територија"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:226
+#: udata_front/theme/govrs/templates/dataset/search-result.html:54
+#: udata_front/theme/govrs/templates/embed-dataset.html:232
+msgid "Frequency"
+msgstr "Учесталост"
+
+#: udata_front/theme/govrs/templates/embed-dataset.html:237
+#: udata_front/theme/govrs/templates/territories/commune.html:25
+#: udata_front/theme/govrs/templates/territories/departement.html:22
+#: udata_front/theme/govrs/templates/territories/region.html:21
+msgid "License:"
+msgstr "Лиценца"
+
+#: udata_front/theme/govrs/templates/footer.html:10
+msgid "The Open Data"
+msgstr "Отворени подаци"
+
+#: udata_front/theme/govrs/templates/footer.html:20
+msgid "Support"
+msgstr "Подршка"
+
+#: udata_front/theme/govrs/templates/footer.html:30
+msgid "Social networks"
+msgstr "Друштвене мреже"
+
+#: udata_front/theme/govrs/templates/footer.html:52
+msgid "RSS feed"
+msgstr "РСС Фид"
+
+#: udata_front/theme/govrs/templates/footer.html:61
+#: udata_front/theme/govrs/templates/footer.html:64
+msgid "Newsletter"
+msgstr "Билтен"
+
+#: udata_front/theme/govrs/templates/footer.html:69
+msgid ""
+"Unless otherwise stated, all content of this site is availabe under <a "
+"href='{lo_url}'>Open Licence 2.0</a>"
+msgstr ""
+"Уколико није другачије наведено, сав садржај сајта је доступан под <a "
+"href='{lo_url}'>Open Licence 2.0</a>"
+
+#: udata_front/theme/govrs/templates/footer.html:76
+msgid "Go to Etalab’s blog"
+msgstr "Etalab блог"
+
+#: udata_front/theme/govrs/templates/footer.html:81
+msgid "A DINUM department"
+msgstr "DINUM одсек"
+
+#: udata_front/theme/govrs/templates/footer.html:85
+msgid "DINUM website"
+msgstr "DINUM сајт"
+
+#: udata_front/theme/govrs/templates/footer.html:96
+msgid "Open-source engine"
+msgstr "Технологија отвореног кода"
+
+#: udata_front/theme/govrs/templates/footer.html:103
+#: udata_front/theme/govrs/templates/footer.html:118
+msgid "Deployed version"
+msgstr "Постављена верзија"
+
+#: udata_front/theme/govrs/templates/footer.html:112
+msgid "Data.gouv.fr extension"
+msgstr "Француска екстензија"
+
+#: udata_front/theme/govrs/templates/footer.html:133
+#: udata_front/theme/govrs/templates/header.html:28
+#: udata_front/theme/govrs/templates/header.html:52
+msgid "Go back to home page"
+msgstr "Повратак на почетну страну"
+
+#: udata_front/theme/govrs/templates/footer.html:146
+msgid "Language selector"
+msgstr "Одабир језика"
+
+#: udata_front/theme/govrs/templates/header.html:20
+msgid ""
+"Internet Explorer 8 and below are not anymore supported. Please upgrade "
+"or change your browser to access the website."
+msgstr ""
+"Internet Explorer 8 или старији нису више подржани. Молимо унапредите "
+"верзију или приступите сајту другим претраживачем."
+
+#: udata_front/theme/govrs/templates/header.html:21
+msgid "More information →"
+msgstr "Још информација →"
+
+#: udata_front/theme/govrs/templates/header.html:35
+msgid "Mobile navigation menu"
+msgstr "Мобилни навигациони мени"
+
+#: udata_front/theme/govrs/templates/header.html:37
+#: udata_front/theme/govrs/templates/header.html:107
+#: udata_front/theme/govrs/templates/header.html:108
+#: udata_front/theme/govrs/templates/header.html:110
+msgid "Search for data"
+msgstr "Претрага података"
+
+#: udata_front/theme/govrs/templates/header.html:42
+msgid "Open menu"
+msgstr "Отвори мени"
+
+#: udata_front/theme/govrs/templates/header.html:46
+msgid "Close menu"
+msgstr "Затвори мени"
+
+#: udata_front/theme/govrs/templates/header.html:70
+msgid "Administration"
+msgstr "Администрација"
+
+#: udata_front/theme/govrs/templates/header.html:73
+msgid "Logout"
+msgstr "Одјава"
+
+#: udata_front/theme/govrs/templates/header.html:77
+#: udata_front/theme/govrs/templates/security/login_user.html:12
+#: udata_front/theme/govrs/templates/security/login_user.html:13
+#: udata_front/theme/govrs/templates/territories/territory.html:41
+msgid "Log in"
+msgstr "Пријава"
+
+#: udata_front/theme/govrs/templates/header.html:81
+#: udata_front/theme/govrs/templates/security/register_user.html:10
+#: udata_front/theme/govrs/templates/security/register_user.html:26
+msgid "Sign up"
+msgstr "Регистрација"
+
+#: udata_front/theme/govrs/templates/header.html:92
+msgid "Main navigation menu"
+msgstr "Главни навигациони мени"
+
+#: udata_front/theme/govrs/templates/api/oauth_error.html:12
+#: udata_front/theme/govrs/templates/errors/base.html:15
+#: udata_front/theme/govrs/templates/home.html:4
+#: udata_front/theme/govrs/templates/macros/breadcrumb.html:16
+#: udata_front/theme/govrs/templates/macros/breadcrumb.html:17
+#: udata_front/theme/govrs/templates/macros/metadata.html:2
+msgid "Home"
+msgstr "Почетна"
+
+#: udata_front/theme/govrs/templates/home.html:5
+#, python-format
+msgid "%(site)s home"
+msgstr "%(site) почетна"
+
+#: udata_front/theme/govrs/templates/home.html:6
+msgid "home"
+msgstr "почетна"
+
+#: udata_front/theme/govrs/templates/home.html:18
+msgid "Open platform for French public data"
+msgstr "Отворена платформа за јавне податке"
+
+#: udata_front/theme/govrs/templates/home.html:41
+msgid "All featured topics"
+msgstr "Све истакнуте теме"
+
+#: udata_front/theme/govrs/templates/home.html:58
+msgid "All news"
+msgstr "Све вести"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:34
+#: udata_front/theme/govrs/templates/dataset/followers.html:4
+#: udata_front/theme/govrs/templates/dataset/list.html:17
+#: udata_front/theme/govrs/templates/dataset/list.html:44
+#: udata_front/theme/govrs/templates/home.html:68
+#: udata_front/theme/govrs/templates/home.html:109
+#: udata_front/theme/govrs/templates/organization/display.html:49
+#: udata_front/theme/govrs/templates/organization/display.html:93
+#: udata_front/theme/govrs/templates/page.html:20
+#: udata_front/theme/govrs/templates/post/display.html:60
+#: udata_front/theme/govrs/templates/site/dashboard.html:20
+#: udata_front/theme/govrs/templates/user/datasets.html:8
+#: udata_front/theme/govrs/templates/user/following.html:15
+#: udata_front/views/site.py:180
+msgid "Datasets"
+msgstr "Скупови података"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:321
+#: udata_front/theme/govrs/templates/dataset/display.html:355
+#: udata_front/theme/govrs/templates/home.html:69
+#: udata_front/theme/govrs/templates/site/dashboard.html:21
+#: udata_front/views/site.py:192
+msgid "Resources"
+msgstr "Ресурси"
+
+#: udata_front/theme/govrs/templates/home.html:71
+#: udata_front/theme/govrs/templates/site/dashboard.html:23
+#: udata_front/theme/govrs/templates/user/base.html:14
+#: udata_front/theme/govrs/templates/user/following.html:18
+#: udata_front/theme/govrs/templates/user/list.html:7
+#: udata_front/theme/govrs/templates/user/list.html:17
+#: udata_front/views/site.py:207
+msgid "Users"
+msgstr "Корисници"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:337
+#: udata_front/theme/govrs/templates/home.html:73
+#: udata_front/theme/govrs/templates/reuse/display.html:233
+#: udata_front/theme/govrs/templates/site/dashboard.html:25
+msgid "Discussions"
+msgstr "Дискусије"
+
+#: udata_front/theme/govrs/templates/home.html:81
+msgid "is"
+msgstr "је"
+
+#: udata_front/theme/govrs/templates/home.html:99
+msgid "Featured datasets"
+msgstr "Истакнути скупови података"
+
+#: udata_front/theme/govrs/templates/home.html:100
+msgid "Latest datasets"
+msgstr "Последњи скупови података"
+
+#: udata_front/theme/govrs/templates/home.html:101
+msgid "Reference datasets"
+msgstr "Референтни скупови података"
+
+#: udata_front/theme/govrs/templates/home.html:121
+#: udata_front/theme/govrs/templates/home.html:166
+msgid "See more"
+msgstr "Види још"
+
+#: udata_front/theme/govrs/templates/home.html:144
+msgid "Featured reuses"
+msgstr "Истакнути примери употребе"
+
+#: udata_front/theme/govrs/templates/home.html:145
+#: udata_front/theme/govrs/templates/home.html:165
+msgid "Latest reuses"
+msgstr "Последњи примери употребе"
+
+#: udata_front/theme/govrs/templates/home.html:153
+msgid "Data reuses"
+msgstr "Примери употребе података"
+
+#: udata_front/theme/govrs/templates/metrics.html:4
+#: udata_front/theme/govrs/templates/metrics.html:10
+msgid "Metrics"
+msgstr "Метрике"
+
+#: udata_front/theme/govrs/templates/metrics.html:5
+msgid "Site metrics"
+msgstr "Метрике сајта"
+
+#: udata_front/theme/govrs/templates/metrics.html:6
+#: udata_front/theme/govrs/templates/site/dashboard.html:6
+msgid "metrics"
+msgstr "метрике"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:163
+#: udata_front/theme/govrs/templates/organization/display.html:149
+#: udata_front/theme/govrs/templates/page.html:50
+#: udata_front/theme/govrs/templates/post/display.html:94
+#: udata_front/theme/govrs/templates/reuse/display.html:120
+msgid "Actions"
+msgstr "Акције"
+
+#: udata_front/theme/govrs/templates/page.html:53
+msgid "Suggest a modification"
+msgstr "Предложите промену"
+
+#. This is a call to action.
+#: udata_front/theme/govrs/templates/participez/participez.html:18
+#: udata_front/theme/govrs/templates/publish-action-modal.html:11
+msgid "Publish a dataset"
+msgstr "Објави скуп података"
+
+#. This is a call to action details.
+#: udata_front/theme/govrs/templates/publish-action-modal.html:15
+msgid "Contribute and add a new dataset to this site catalog."
+msgstr "Допринесите и додајте нови скуп података у каталог сајта."
+
+#. This is a call to action.
+#: udata_front/theme/govrs/templates/participez/participez.html:22
+#: udata_front/theme/govrs/templates/publish-action-modal.html:25
+msgid "Publish a reuse"
+msgstr "Објавите пример употребе"
+
+#. This is a call to action details.
+#: udata_front/theme/govrs/templates/publish-action-modal.html:29
+msgid "Contribute and add a new reuse to this site catalog."
+msgstr "Допринесите и додајте нови пример употребе у каталог сајта."
+
+#. This is a call to action.
+#: udata_front/theme/govrs/templates/participez/participez.html:8
+#: udata_front/theme/govrs/templates/publish-action-modal.html:39
+msgid "Create or find your organization"
+msgstr "Креирајте или пронађите вашу организацију"
+
+#. This is a call to action details.
+#: udata_front/theme/govrs/templates/publish-action-modal.html:43
+msgid "You can create a new organization or find yours."
+msgstr "Можете креирати нову организацију или пронаћи вашу."
+
+#: udata_front/theme/govrs/templates/raw.html:20
+msgid "Recent datasets"
+msgstr "Недавни скупови података"
+
+#: udata_front/theme/govrs/templates/raw.html:23
+msgid "Recent reuses"
+msgstr "Недавни примери употребе"
+
+#: udata_front/theme/govrs/templates/terms.html:4
+#: udata_front/theme/govrs/templates/terms.html:5
+msgid "Terms"
+msgstr "Услови"
+
+#: udata_front/theme/govrs/templates/terms.html:7
+msgid "terms"
+msgstr "услови"
+
+#: udata_front/theme/govrs/templates/api/admin.html:10
+msgid "Name"
+msgstr "Име"
+
+#: udata_front/theme/govrs/templates/api/admin.html:11
+msgid "Maintainer"
+msgstr "Одржавалац"
+
+#: udata_front/theme/govrs/templates/api/admin.html:31
+#: udata_front/theme/govrs/templates/post/display.html:101
+#: udata_front/theme/govrs/templates/user/base.html:23
+msgid "Edit"
+msgstr "Измена"
+
+#: udata_front/theme/govrs/templates/api/admin.html:34
+msgid "Delete"
+msgstr "Брисање"
+
+#: udata_front/theme/govrs/templates/api/admin.html:42
+msgid "No OAuth clients"
+msgstr "No OAuth clients"
+
+#: udata_front/theme/govrs/templates/api/admin.html:53
+msgid "Add a client"
+msgstr "Додај клијента"
+
+#: udata_front/theme/govrs/templates/api/oauth_authorize.html:3
+msgid "External application authorization"
+msgstr "Екстерна ауторизација апликације"
+
+#: udata_front/theme/govrs/templates/api/oauth_authorize.html:28
+#, python-format
+msgid "%(app)s want to access your %(site)s account."
+msgstr "%(app)s желе приступ вашем %(site)s налогу."
+
+#: udata_front/theme/govrs/templates/api/oauth_authorize.html:38
+msgid "This site request the following rights:"
+msgstr "Овај сајт захтева следећа права:"
+
+#: udata_front/theme/govrs/templates/api/oauth_authorize.html:40
+msgid "Access your profile"
+msgstr "Приступ вашем профилу"
+
+#: udata_front/theme/govrs/templates/api/oauth_authorize.html:41
+msgid "Read your profile, the orgnization you belong to, your publications"
+msgstr "Прочитајте ваш профил, организацију којој припадате, ваше објаве"
+
+#: udata_front/theme/govrs/templates/api/oauth_authorize.html:42
+msgid "Publish data"
+msgstr "Објави податке"
+
+#: udata_front/theme/govrs/templates/api/oauth_authorize.html:43
+msgid "Publish datasets, reuses, follow or unfollow"
+msgstr "Објави сетове података, примера употребе, запрати или престани праћење"
+
+#: udata_front/theme/govrs/templates/api/oauth_authorize.html:54
+msgid "Refuse"
+msgstr "Одби"
+
+#: udata_front/theme/govrs/templates/api/oauth_authorize.html:61
+msgid "Accept"
+msgstr "Прихвати"
+
+#: udata_front/theme/govrs/templates/api/oauth_error.html:6
+msgid "OAuth Authentication Error"
+msgstr "OAuth грешка аутентикације"
+
+#: udata_front/theme/govrs/templates/banners/read-only.html:5
+msgid ""
+"Due to security reasons, the creation of new content is currently "
+"disabled."
+msgstr ""
+"Због сигуросних разлога, креирање новог садржаја је привремено "
+"онемогућено."
+
+#: udata_front/theme/govrs/templates/dataset/card.html:33
+#: udata_front/theme/govrs/templates/dataset/search-result.html:77
+msgid "resources"
+msgstr "ресурси"
+
+#: udata_front/theme/govrs/templates/dataset/card.html:34
+#: udata_front/theme/govrs/templates/dataset/search-result.html:79
+#: udata_front/theme/govrs/templates/organization/card.html:26
+#: udata_front/theme/govrs/templates/organization/producer-summary.html:44
+#: udata_front/theme/govrs/templates/reuse/list.html:7
+msgid "reuses"
+msgstr "примери употребе"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:13
+msgid "dataset"
+msgstr "скупови података"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:19
+#: udata_front/theme/govrs/templates/reuse/display.html:18
+#, python-format
+msgid "Explore with %(certifier)s"
+msgstr "Истражи са %(certifier)s"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:51
+msgid "This dataset is private and will not be visible by other users"
+msgstr "Овај скупо података је приватан и неће бити видљив од других корисника"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:51
+#: udata_front/theme/govrs/templates/dataset/search-result.html:36
+#: udata_front/theme/govrs/templates/reuse/card.html:22
+#: udata_front/theme/govrs/templates/reuse/display.html:45
+msgid "Private"
+msgstr "Приватно"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:56
+msgid "This dataset has been deleted. This will be permanent in the next 24 hours"
+msgstr "Овај скуп података је обрисан. Ово ће бити трајно у наредних 24 часа"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:56
+msgid "Deleted"
+msgstr "Обрисано"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:60
+msgid ""
+"This dataset has been archived automatically because it has been deleted "
+"from the remote platform."
+msgstr ""
+"Овај скуп података је аутоматски архивиран јер је обрисан "
+"са удаљене платформе."
+
+#: udata_front/theme/govrs/templates/dataset/display.html:62
+msgid "This dataset has been archived."
+msgstr "Овај скуп података је архивиран."
+
+#: udata_front/theme/govrs/templates/dataset/display.html:64
+msgid "Archived"
+msgstr "Архивирано"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:70
+msgid ""
+"This dataset is handled by the <a href='{geo_link}'>geo.data.gouv.fr</a> "
+"platform.\n"
+"        This platform is not actively maintained and as a result, you may"
+" find some bogus data or metadata.\n"
+"        More information about <a href='{blog_link}'>the shutdown of "
+"geo.data.gouv.fr is available here.</a>"
+msgstr ""
+
+#: udata_front/theme/govrs/templates/dataset/display.html:86
+#, python-format
+msgid "Updated on %(date)s"
+msgstr "Освежено %(date)s"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:105
+#: udata_front/theme/govrs/templates/dataset/display.html:111
+msgid "Modify dataset"
+msgstr "Измени скуп података"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:124
+msgid ""
+"This dataset come from an external portal.&nbsp;<a "
+"href='{external_source}'>View the original source.</a>"
+msgstr ""
+"Овај скуп података долази са спољњег портала.&nbsp;<a "
+"href='{external_source}'>Види оригинали извор.</a>"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:131
+#, python-format
+msgid ""
+"This dataset has been published on the initiative and under the "
+"responsibility of\n"
+"            %(author)s<br />Published on %(date)s and updated on "
+"%(update)s"
+msgstr ""
+"Овај скуп података је објављен иницијативом и под "
+"одговорности од \n"
+"            %(author)s<br />Објављено %(date)s и промењено "
+"%(update)s"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:143
+msgid "Dataset informations"
+msgstr "Информације о скупу података"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:150
+msgid "Author"
+msgstr "Аутор"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:157
+#: udata_front/theme/govrs/templates/reuse/display.html:114
+msgid "Metadata"
+msgstr "Метаподаци"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:198
+#: udata_front/theme/govrs/templates/reuse/display.html:149
+msgid "Informations"
+msgstr "Информације"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:201
+msgid "License"
+msgstr "Лиценца"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:208
+#: udata_front/theme/govrs/templates/reuse/display.html:161
+msgid "ID"
+msgstr "ИД"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:213
+#: udata_front/theme/govrs/templates/dataset/display.html:214
+msgid "Remote source"
+msgstr "Удаљени извор"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:219
+msgid "Temporality"
+msgstr "Темпоралност"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:229
+#: udata_front/theme/govrs/templates/organization/display.html:139
+#: udata_front/theme/govrs/templates/reuse/display.html:170
+msgid "Creation date"
+msgstr "Датум креирања"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:231
+msgid "Latest resource update"
+msgstr "Последња промена ресурса"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:237
+msgid "Geographic dimensions"
+msgstr "Географске димензије"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:240
+#: udata_front/theme/govrs/templates/dataset/search-result.html:69
+msgid "Territorial coverage granularity"
+msgstr "Грануларност територијалне покривености"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:244
+msgid "Territorial coverage"
+msgstr "Територијална покривеност"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:257
+msgid "Extras"
+msgstr "Додаци"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:273
+#: udata_front/theme/govrs/templates/participez/participez.html:5
+#: udata_front/theme/govrs/templates/reuse/display.html:180
+msgid "Participate"
+msgstr "Учествујте"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:276
+#: udata_front/theme/govrs/templates/dataset/display.html:423
+#: udata_front/theme/govrs/templates/reuse/display.html:183
+msgid "Add a reuse"
+msgstr "Додај пример употребе"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:281
+msgid "Contact the 	"
+msgstr "Контактирајте "
+
+#: udata_front/theme/govrs/templates/dataset/display.html:287
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:81
+#: udata_front/theme/govrs/templates/reuse/display.html:194
+msgid "Permalink"
+msgstr "Пермалинк"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:301
+#: udata_front/theme/govrs/templates/macros/integrate.html:11
+#: udata_front/theme/govrs/templates/reuse/display.html:208
+msgid "Copy this"
+msgstr "Копирај ово"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:312
+#: udata_front/theme/govrs/templates/reuse/display.html:219
+msgid "Summary"
+msgstr "Сажетак"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:316
+#: udata_front/theme/govrs/templates/dataset/display.html:347
+#: udata_front/theme/govrs/templates/organization/display.html:84
+#: udata_front/theme/govrs/templates/reuse/display.html:223
+#: udata_front/theme/govrs/templates/reuse/display.html:248
+msgid "Description"
+msgstr "Опис"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:326
+#: udata_front/theme/govrs/templates/dataset/display.html:393
+msgid "Community resources"
+msgstr "Ресурси заједнице"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:357
+msgid "See also: community resources"
+msgstr "Видети такође: ресурси заједнице"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:378
+#, python-format
+msgid "See the %(nb)d resources of type %(type)s"
+msgstr "Видети %(nb)d ресурсе типа %(type)s"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:383
+msgid "No resources"
+msgstr "Нема ресурса"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:397
+msgid ""
+"You have built a more comprehensive database than those presented here? "
+"This is the time to share it!"
+msgstr ""
+"Имате сте обимнију базу података од ових овде приказаних? "
+"Сада је време да их поделите!"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:410
+msgid "Add a community resource"
+msgstr "Додајте заједнички ресурс"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:428
+msgid "Explore the reuses of this dataset."
+msgstr "Истражите примере употребе овог сета података."
+
+#: udata_front/theme/govrs/templates/dataset/display.html:429
+msgid "Did you use this data ? Reference your work and increase your visibility."
+msgstr "Да ли сте користили ове податке? Референцирајте ваш рад и повећајте своју видљивост."
+
+#: udata_front/theme/govrs/templates/dataset/display.html:446
+msgid "Discussion between the organization and the community about this dataset."
+msgstr "Дискусија између организације и заједнице око овог скупа података."
+
+#: udata_front/theme/govrs/templates/dataset/display.html:448
+msgid "Discussion between the owner and the community about this dataset."
+msgstr "Дискусија између власника и заједнице око овог скупа података."
+
+#: udata_front/theme/govrs/templates/dataset/followers.html:6
+#: udata_front/theme/govrs/templates/user/followers.html:7
+msgid "Followers"
+msgstr "Пратиоци"
+
+#: udata_front/theme/govrs/templates/dataset/followers.html:13
+#: udata_front/theme/govrs/templates/organization/search-result.html:33
+#: udata_front/theme/govrs/templates/user/base.html:72
+#: udata_front/theme/govrs/templates/user/followers.html:12
+#, python-format
+msgid "%(num)d follower"
+msgid_plural "%(num)d followers"
+msgstr[0] "%(num)d пратилац"
+msgstr[1] "%(num)d пратиоци"
+
+#: udata_front/theme/govrs/templates/dataset/list.html:18
+#, python-format
+msgid "%(site)s dataset search"
+msgstr "%(site)s претрага скупова података"
+
+#: udata_front/theme/govrs/templates/dataset/list.html:19
+#: udata_front/theme/govrs/templates/organization/list.html:9
+#: udata_front/theme/govrs/templates/reuse/list.html:7
+#: udata_front/theme/govrs/templates/user/list.html:9
+msgid "search"
+msgstr "претрага"
+
+#: udata_front/theme/govrs/templates/dataset/list.html:19
+#: udata_front/theme/govrs/templates/organization/card.html:23
+#: udata_front/theme/govrs/templates/organization/producer-summary.html:38
+#: udata_front/theme/govrs/templates/reuse/card.html:18
+msgid "datasets"
+msgstr "скупови података"
+
+#: udata_front/theme/govrs/templates/dataset/list.html:39
+#: udata_front/theme/govrs/templates/dataset/list.html:40
+#: udata_front/theme/govrs/templates/organization/list.html:30
+#: udata_front/theme/govrs/templates/organization/list.html:31
+#: udata_front/theme/govrs/templates/reuse/list.html:47
+#: udata_front/theme/govrs/templates/reuse/list.html:48
+msgid "Search..."
+msgstr "Претрага..."
+
+#: udata_front/theme/govrs/templates/dataset/list.html:45
+msgid "Search reuses"
+msgstr "Претрага примера употебе"
+
+#: udata_front/theme/govrs/templates/dataset/search-result.html:62
+msgid "Spatial coverage"
+msgstr "Просторно покривање"
+
+#: udata_front/theme/govrs/templates/dataset/search-result.html:82
+#: udata_front/theme/govrs/templates/organization/card.html:34
+msgid "favourites"
+msgstr "омиљени"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:10
+msgid "Дугме за измене"
+msgstr ""
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:16
+msgid "downloads"
+msgstr "преузимања"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:18
+msgid "Nameless resource"
+msgstr "Неименовани ресурс"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:30
+msgid "Copy permalink to clipboard"
+msgstr "Копирајте пермалинк у клипборд"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:39
+msgid "Resource link"
+msgstr "Линк ресурса"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:48
+msgid "Download resource"
+msgstr "Преузмите ресурс"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:77
+msgid "URL"
+msgstr "URL"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:85
+#: udata_front/theme/govrs/templates/reuse/card_old.html:27
+#: udata_front/theme/govrs/templates/reuse/display.html:151
+msgid "Type"
+msgstr "Тип"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:89
+msgid "MIME Type"
+msgstr "MIME тип"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:99
+msgid "Created on"
+msgstr "Креирано"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:103
+msgid "Modified on"
+msgstr "Промењено"
+
+#: udata_front/theme/govrs/templates/dataset/resource/card.html:107
+#: udata_front/theme/govrs/templates/post/search-result.html:8
+msgid "Published on"
+msgstr "Објављено"
+
+#: udata_front/theme/govrs/templates/errors/400.html:3
+msgid "Bad request"
+msgstr "Погрешан захтев"
+
+#: udata_front/theme/govrs/templates/errors/400.html:8
+#: udata_front/theme/govrs/templates/errors/500.html:8
+msgid "The error identifier is {id}"
+msgstr "Идентификатор грешке је {id}"
+
+#: udata_front/theme/govrs/templates/errors/403.html:3
+msgid "Forbidden"
+msgstr "Забрањено"
+
+#: udata_front/theme/govrs/templates/errors/403.html:6
+msgid "You are not allowed to display this page."
+msgstr "Није вам дозвољен приказ ове странице."
+
+#: udata_front/theme/govrs/templates/errors/404.html:3
+#: udata_front/theme/govrs/templates/errors/410.html:3
+msgid "Page Not Found"
+msgstr "Страна није нађена"
+
+#: udata_front/theme/govrs/templates/errors/404.html:6
+msgid "The page you're looking for could not be found."
+msgstr "Страна коју тражите не може бити нађена"
+
+#: udata_front/theme/govrs/templates/errors/410.html:6
+msgid "The page you're looking has been deleted."
+msgstr "Страна коју тражите је обрисана"
+
+#: udata_front/theme/govrs/templates/errors/500.html:3
+msgid "Internal server error"
+msgstr "Унутрашња грешка на серверу"
+
+#: udata_front/theme/govrs/templates/errors/500.html:6
+msgid ""
+"The server encountered an internal error and was unable to complete your "
+"request. Either the server is overloaded or there is an error in the "
+"application."
+msgstr ""
+"Серверу се договила унутрашња грешка и није успео да одговори на ваш "
+"захтев. Или је сервер преоптерећен или постоји нека грешка у "
+"апликацији."
+
+#: udata_front/theme/govrs/templates/errors/base.html:9
+#, python-format
+msgid "Error %(code)s"
+msgstr "Грешка %(code)s"
+
+#: udata_front/theme/govrs/templates/follow/follower-card.html:6
+#, python-format
+msgid "Following since %(date)s"
+msgstr "Прати од %(date)s"
+
+#: udata_front/theme/govrs/templates/macros/certified.html:4
+#, python-format
+msgid "The identity of this public service is certified by %(certifier)s"
+msgstr "Идентитет овог јавног сервиса је сертификован од стране %(certifier)s"
+
+#: udata_front/theme/govrs/templates/macros/metadata.html:3
+msgid "Share, improve and reuse public data"
+msgstr "Поделите, побољшајте и користите податке"
+
+#: udata_front/theme/govrs/templates/macros/paginator.html:20
+msgid "First page"
+msgstr "Прва страна"
+
+#: udata_front/theme/govrs/templates/macros/paginator.html:31
+msgid "Previous page"
+msgstr "Претходна страна"
+
+#: udata_front/theme/govrs/templates/macros/paginator.html:40
+msgid "Page 1"
+msgstr "Страна 1"
+
+#: udata_front/theme/govrs/templates/macros/paginator.html:64
+#: udata_front/theme/govrs/templates/macros/paginator.html:84
+#, python-format
+msgid "Page %(num)s"
+msgstr "Страна %(num)s"
+
+#: udata_front/theme/govrs/templates/macros/paginator.html:98
+msgid "Next page"
+msgstr "Следећа страна"
+
+#: udata_front/theme/govrs/templates/macros/paginator.html:109
+msgid "Last page"
+msgstr "Последња страна"
+
+#: udata_front/theme/govrs/templates/macros/search.html:17
+msgid "Sort by"
+msgstr "Распоред према"
+
+#: udata_front/theme/govrs/templates/macros/search.html:21
+msgid "Relevance"
+msgstr "Релевантност"
+
+#: udata_front/theme/govrs/templates/macros/search.html:43
+msgid "Ascending"
+msgstr "Растуће"
+
+#: udata_front/theme/govrs/templates/macros/search.html:43
+msgid "Descending"
+msgstr "Опадајуће"
+
+#: udata_front/theme/govrs/templates/macros/search.html:53
+msgid "Export"
+msgstr ""
+
+#: udata_front/theme/govrs/templates/macros/search.html:122
+#: udata_front/theme/govrs/templates/macros/search.html:160
+msgid "More results…"
+msgstr "Још резултата..."
+
+#: udata_front/theme/govrs/templates/macros/search.html:201
+#, python-format
+msgid "Results %(start)s to %(end)s on %(total)s found"
+msgstr "Резултати од %(start)s до %(end)s од укупно %(total)s пронађених"
+
+#: udata_front/theme/govrs/templates/macros/search.html:216
+msgid "No result found"
+msgstr "Нема резултата"
+
+#: udata_front/theme/govrs/templates/macros/search.html:224
+msgid "Search"
+msgstr "Претрага"
+
+#: udata_front/theme/govrs/templates/macros/uploader.html:8
+msgid "Drag a file here"
+msgstr "Превуците фајл овде"
+
+#: udata_front/theme/govrs/templates/macros/uploader.html:11
+msgid "or"
+msgstr "или"
+
+#: udata_front/theme/govrs/templates/macros/uploader.html:15
+msgid "Select a file from your computer"
+msgstr "Одаберите фајл са вашег рачунара"
+
+#: udata_front/theme/govrs/templates/mail/account_deleted.html:4
+msgid "Your account has now been deleted"
+msgstr "Ваш налог је сада обрисан"
+
+#: udata_front/theme/govrs/templates/mail/badge_added_certified.html:6
+#, python-format
+msgid "%(user)s has certified your organization \"%(name)s\""
+msgstr "%(user)s је сертификовао вашу организацију \"%(name)s\""
+
+#: udata_front/theme/govrs/templates/mail/badge_added_certified.html:27
+#: udata_front/theme/govrs/templates/mail/badge_added_public_service.html:27
+msgid "See the badge"
+msgstr "Видите беџ"
+
+#: udata_front/theme/govrs/templates/mail/badge_added_public_service.html:6
+#, python-format
+msgid "%(user)s has identified your organization \"%(name)s\" as public service"
+msgstr "%(user)s је идентификовао вашу организацију \"%(name)s\" као јавну сервис"
+
+#: udata_front/theme/govrs/templates/mail/base.html:45
+msgid "on your browser."
+msgstr "на вашем претраживачу."
+
+#: udata_front/theme/govrs/templates/mail/base.html:48
+#, python-format
+msgid "View this email %(link)s"
+msgstr "Видите овај мејл %(link)s"
+
+#: udata_front/theme/govrs/templates/mail/base.html:81
+#, python-format
+msgid "Hi %(user)s"
+msgstr "Здраво %(user)s"
+
+#: udata_front/theme/govrs/templates/mail/base.html:92
+msgid "See you soon on the platform"
+msgstr "Видимо се ускоро на платформи"
+
+#: udata_front/theme/govrs/templates/mail/base.html:93
+#, python-format
+msgid "The %(site)s team"
+msgstr "%(site)s тим"
+
+#: udata_front/theme/govrs/templates/mail/discussion_closed.html:6
+#, python-format
+msgid "%(user)s closed an discussion on your %(type)s %(subject)s"
+msgstr "%(user)s је затворио дискусију на ваш %(type)s %(subject)s"
+
+#: udata_front/theme/govrs/templates/mail/discussion_closed.html:26
+#: udata_front/theme/govrs/templates/mail/new_discussion.html:25
+#: udata_front/theme/govrs/templates/mail/new_discussion_comment.html:26
+msgid "Title"
+msgstr "Наслов"
+
+#: udata_front/theme/govrs/templates/mail/discussion_closed.html:31
+#: udata_front/theme/govrs/templates/mail/new_discussion.html:30
+#: udata_front/theme/govrs/templates/mail/new_discussion_comment.html:31
+msgid "Message"
+msgstr "Порука"
+
+#: udata_front/theme/govrs/templates/mail/discussion_closed.html:40
+#: udata_front/theme/govrs/templates/mail/new_discussion.html:38
+#: udata_front/theme/govrs/templates/mail/new_discussion_comment.html:39
+msgid "See the discussion"
+msgstr "Видите дискусију"
+
+#: udata_front/theme/govrs/templates/mail/frequency_reminder.html:6
+msgid ""
+"Some of your datasets need to be updated according to the frequency you "
+"set:"
+msgstr ""
+"Неки од ваших скупова података треба да буду обновљени према учесталости коју "
+"поставите:"
+
+#: udata_front/theme/govrs/templates/mail/frequency_reminder.html:12
+#, python-format
+msgid "Dataset \"%(dataset_title)s\" last update is on %(published_date)s."
+msgstr "Скуп података \"%(dataset_title)s\" је имао последњу обнову %(published_date)s."
+
+#: udata_front/theme/govrs/templates/mail/frequency_reminder.html:17
+#, python-format
+msgid ""
+"Given the set frequency (%(dataset_frequency)s) update was due "
+"%(due_update_days)s days ago."
+msgstr ""
+"Узевши у обзир задату учесталост (%(dataset_frequency)s) обнављање "
+"касни %(due_update_days)s дана."
+
+#: udata_front/theme/govrs/templates/mail/frequency_reminder.html:25
+msgid "Update the dataset and associated resources"
+msgstr "Обновите скуп података и придружене ресурсе"
+
+#: udata_front/theme/govrs/templates/mail/membership_refused.html:7
+#, python-format
+msgid "Your membership for the organization \"%(org)s\" has been refused"
+msgstr "Ваше чланство за организацију \"%(org)s\" је одбијено"
+
+#: udata_front/theme/govrs/templates/mail/membership_refused.html:18
+msgid "Refusal reason"
+msgstr "Разлог одбијања"
+
+#: udata_front/theme/govrs/templates/mail/membership_request.html:8
+#, python-format
+msgid ""
+"As an administrator of \"%(org)s\" you are being informed than a new "
+"membership request from %(user)s is pending for validation"
+msgstr ""
+"Као администратор од \"%(org)s\" информисани сте да нови захтев за "
+"чланство од корисника %(user)s чека на валидацију"
+
+#: udata_front/theme/govrs/templates/mail/membership_request.html:40
+msgid "See the request"
+msgstr "Видите захтев"
+
+#: udata_front/theme/govrs/templates/mail/new_discussion.html:6
+#, python-format
+msgid "%(user)s submitted a new discussion on your %(type)s %(subject)s"
+msgstr "%(user)s је поставио нову дискусију на ваш %(type)s %(subject)s"
+
+#: udata_front/theme/govrs/templates/mail/new_discussion_comment.html:6
+#, python-format
+msgid "%(user)s commented an discussion on your %(type)s %(subject)s"
+msgstr "%(user)s је коментарисао дискусију на ваш %(type)s %(subject)s"
+
+#: udata_front/theme/govrs/templates/mail/new_follower.html:8
+#, python-format
+msgid "%(user)s followed you"
+msgstr "%(user)s вас сада прати"
+
+#: udata_front/theme/govrs/templates/mail/new_follower.html:33
+#: udata_front/theme/govrs/templates/mail/new_follower_org.html:40
+msgid "See his profile"
+msgstr "Видите профил"
+
+#: udata_front/theme/govrs/templates/mail/new_follower_org.html:8
+#, python-format
+msgid "%(user)s followed your organization %(org)s"
+msgstr "%(user)s сада прати вашу организацију %(org)s"
+
+#: udata_front/theme/govrs/templates/mail/new_member.html:7
+#, python-format
+msgid "Congratulations, you are now a member of the organization \"%(org)s\""
+msgstr "Честитамо, сада сте члан организације \"%(org)s\""
+
+#: udata_front/theme/govrs/templates/mail/new_member.html:21
+msgid "See the organization page"
+msgstr "Видите страну организације"
+
+#: udata_front/theme/govrs/templates/mail/new_reuse.html:7
+#, python-format
+msgid "A new reuse of your dataset %(dataset)s has been published"
+msgstr "Нови пример употребе вашег цкупа података %(dataset)s је објављена"
+
+#: udata_front/theme/govrs/templates/mail/new_reuse.html:31
+#: udata_front/theme/govrs/templates/reuse/display.html:96
+msgid "See the reuse"
+msgstr "Видите пример употребе"
+
+#: udata_front/theme/govrs/templates/mail/new_reuse.html:37
+msgid "See on the dataset page"
+msgstr "Видите на страни скупова података"
+
+#: udata_front/theme/govrs/templates/mail/test.html:4
+msgid "This is a test mail"
+msgstr "Ово је тестни мејл"
+
+#: udata_front/theme/govrs/templates/mail/test.html:5
+msgid "If you read this, your mail configuration is working"
+msgstr "Ако ово читате, ваша мејл конфигурација ради."
+
+#: udata_front/theme/govrs/templates/mail/security/change_notice.html:6
+msgid "Your password has been changed."
+msgstr "Ваша лозинка је промењена."
+
+#: udata_front/theme/govrs/templates/mail/security/change_notice.html:10
+msgid "If you did not change your password, click below to reset it."
+msgstr "Ако ви нисте променили лозинку, кликните испод да је ресетујете."
+
+#: udata_front/theme/govrs/templates/mail/security/change_notice.html:15
+msgid "Reset password"
+msgstr "Ресет лозинке"
+
+#: udata_front/theme/govrs/templates/mail/security/confirmation_instructions.html:6
+msgid "Please confirm your email through the link below:"
+msgstr "Молимо потврдите вашу мејл адресу путем линка испод:"
+
+#: udata_front/theme/govrs/templates/mail/security/confirmation_instructions.html:14
+msgid "Confirm my account"
+msgstr "Потврди мој налог"
+
+#: udata_front/theme/govrs/templates/mail/security/login_instructions.html:6
+msgid "You can log into your account through the link below:"
+msgstr "Можете се пријавити на овај налог путем линка испод:"
+
+#: udata_front/theme/govrs/templates/mail/security/login_instructions.html:13
+msgid "Login now"
+msgstr "Пријавите се сада"
+
+#: udata_front/theme/govrs/templates/mail/security/reset_instructions.html:7
+#, python-format
+msgid ""
+"Someone has requested a password reset for your %(site)s account. If you "
+"didn't, please ignore this email."
+msgstr ""
+"Неко је захтевао ресет лозинке за ваш %(site)s налог. Ако ви "
+"нисте, молимо игноришите овај мејл."
+
+#: udata_front/theme/govrs/templates/mail/security/reset_instructions.html:10
+msgid ""
+"To reset your password, please confirm your request through the link "
+"below:"
+msgstr ""
+"За ресет лозинке, молимо потврдите ваш захтев путем линка "
+"испод:"
+
+#: udata_front/theme/govrs/templates/mail/security/reset_instructions.html:18
+msgid "Reset my password"
+msgstr "Ресетуј ми лозинку"
+
+#: udata_front/theme/govrs/templates/mail/security/reset_notice.html:7
+#, python-format
+msgid "Your password for %(site)s has been reset."
+msgstr "Ваша лозинка за %(site)s је ресетована."
+
+#: udata_front/theme/govrs/templates/mail/security/welcome.html:7
+#, python-format
+msgid "Welcome to %(site)s!"
+msgstr "Добродошли на %(site)s!"
+
+#: udata_front/theme/govrs/templates/mail/security/welcome.html:10
+msgid ""
+"To activate your account, please confirm your email address through the "
+"link below:"
+msgstr ""
+"Да активирате налог, молимо потврдите вашу мејл адресу путем "
+"линка испод:"
+
+#: udata_front/theme/govrs/templates/mail/security/welcome.html:18
+msgid "Confirm now"
+msgstr "Потврдите сада"
+
+#: udata_front/theme/govrs/templates/organization/display.html:12
+msgid "organization"
+msgstr "организација"
+
+#: udata_front/theme/govrs/templates/organization/display.html:28
+msgid ""
+"This organization has been deleted. This will be permanent in the next 24"
+" hours"
+msgstr "Ова организација је обрисана. Ово ће бити трајно у наредних 24 часа"
+
+#: udata_front/theme/govrs/templates/organization/display.html:70
+#: udata_front/theme/govrs/templates/organization/display.html:76
+msgid "Modify organization"
+msgstr "Промените организацију"
+
+#: udata_front/theme/govrs/templates/organization/display.html:116
+msgid "Members"
+msgstr "Чланови"
+
+#: udata_front/theme/govrs/templates/organization/display.html:132
+msgid "Technical details"
+msgstr "Технички детаљи"
+
+#: udata_front/theme/govrs/templates/organization/display.html:143
+msgid "Modification date"
+msgstr "Датум промене"
+
+#: udata_front/theme/govrs/templates/organization/display.html:157
+msgid "Modify information"
+msgstr "Промените информације"
+
+#: udata_front/theme/govrs/templates/organization/display.html:166
+msgid "Download list of datasets as csv file"
+msgstr "Преузети листу скупова података као csv фајл"
+
+#: udata_front/theme/govrs/templates/organization/display.html:180
+msgid "Pending request to join this organization"
+msgstr "Отворени захтеви за приступ овој организацији"
+
+#: udata_front/theme/govrs/templates/organization/list.html:8
+#, python-format
+msgid "%(site)s organization search"
+msgstr "%(site)s претрага организације"
+
+#: udata_front/theme/govrs/templates/organization/list.html:9
+msgid "organizations"
+msgstr "организације"
+
+#: udata_front/theme/govrs/templates/organization/list.html:18
+#: udata_front/theme/govrs/templates/post/list.html:16
+#: udata_front/theme/govrs/templates/reuse/list.html:16
+#: udata_front/theme/govrs/templates/user/list.html:18
+#, python-format
+msgid "%(start)s to %(end)s on %(total)s"
+msgstr "%(start)s до %(end)s од %(total)s"
+
+#: udata_front/theme/govrs/templates/organization/search-result.html:22
+msgid "Number of datasets"
+msgstr "Број скупова података"
+
+#: udata_front/theme/govrs/templates/organization/search-result.html:23
+#: udata_front/theme/govrs/templates/user/base.html:84
+#, python-format
+msgid "%(num)d dataset"
+msgid_plural "%(num)d datasets"
+msgstr[0] "%(num)d скуп података"
+msgstr[1] "%(num)d скупова података"
+
+#: udata_front/theme/govrs/templates/organization/search-result.html:27
+msgid "Number of reuses by the organization"
+msgstr "Број примера употребе организације"
+
+#: udata_front/theme/govrs/templates/organization/search-result.html:28
+#: udata_front/theme/govrs/templates/user/base.html:90
+#, python-format
+msgid "%(num)d reuse"
+msgid_plural "%(num)d reuses"
+msgstr[0] "%(num)d пример употребе"
+msgstr[1] "%(num)d примера употребе"
+
+#: udata_front/theme/govrs/templates/organization/search-result.html:32
+msgid "Number of followers"
+msgstr "Број пратилаца"
+
+#: udata_front/theme/govrs/templates/organization/search-result.html:36
+msgid "Number of members"
+msgstr "Број чланова"
+
+#: udata_front/theme/govrs/templates/organization/search-result.html:37
+#, python-format
+msgid "%(num)d members"
+msgid_plural "%(num)d members"
+msgstr[0] "%(num)d члан"
+msgstr[1] "%(num)d чланова"
+
+#: udata_front/theme/govrs/templates/participez/participez.html:11
+msgid "Go to documentation"
+msgstr "Идите на документацију"
+
+#: udata_front/theme/govrs/templates/post/display.html:27
+#: udata_front/theme/govrs/templates/reuse/card_old.html:41
+#: udata_front/theme/govrs/templates/reuse/display.html:60
+#, python-format
+msgid "Published on %(date)s"
+msgstr "Објављено %(date)s"
+
+#: udata_front/theme/govrs/templates/post/display.html:31
+msgid "This post is a draft and will not be visible by other users"
+msgstr "Ова објава је у припреми и неће бити видљива другима"
+
+#: udata_front/theme/govrs/templates/post/display.html:36
+msgid "This post has been deleted. This will be permanent in the next 24 hours"
+msgstr "Ова објава је обрисана. Ово ће бити трајно у наредних 24 часа"
+
+#: udata_front/theme/govrs/templates/post/display.html:118
+msgid "Previous post"
+msgstr "Претходна објава"
+
+#: udata_front/theme/govrs/templates/post/display.html:124
+msgid "All posts"
+msgstr "Све објаве"
+
+#: udata_front/theme/govrs/templates/post/display.html:133
+msgid "Next post"
+msgstr "Следећа објава"
+
+#: udata_front/theme/govrs/templates/post/list.html:5
+#: udata_front/theme/govrs/templates/post/list.html:15
+#: udata_front/theme/govrs/templates/post/list.html:25
+msgid "Posts"
+msgstr "Блог"
+
+#: udata_front/theme/govrs/templates/post/list.html:6
+#, python-format
+msgid "%(site)s posts"
+msgstr "%(site)s објаве"
+
+#: udata_front/theme/govrs/templates/post/list.html:7
+msgid "posts"
+msgstr "објаве"
+
+#: udata_front/theme/govrs/templates/post/list.html:29
+msgid "To stay up-to-date, you can subscribe to"
+msgstr "Да би били благовремно информисани, претплатите се"
+
+#: udata_front/theme/govrs/templates/post/list.html:30
+msgid "Subscribe"
+msgstr "Претплатите се"
+
+#: udata_front/theme/govrs/templates/post/list.html:32
+msgid "our newsletter."
+msgstr "наш билтен"
+
+#: udata_front/theme/govrs/templates/reuse/card_old.html:31
+msgid "Number of datasets used"
+msgstr "Број коришћених скупова података"
+
+#: udata_front/theme/govrs/templates/reuse/card_old.html:36
+msgid "Stars"
+msgstr "Звезде"
+
+#: udata_front/theme/govrs/templates/reuse/card_old.html:48
+#, python-format
+msgid "Created by %(user)s"
+msgstr "Креирао корисник %(user)s"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:10
+msgid "reuse"
+msgstr "пример употебе"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:44
+msgid "This reuse is private and will not be visible by other users"
+msgstr "Овај пример употребе је приватан и неће бити видљив осталим корисницима"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:50
+msgid "This reuse has been deleted. This will be permanent in the next 24 hours"
+msgstr "Овај пример употребе је обрисан. Ово ће бити трајно у наредних 24 часа"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:70
+#: udata_front/theme/govrs/templates/reuse/display.html:76
+msgid "Modify reuse"
+msgstr "Измените пример употребе"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:104
+msgid "Reuse informations"
+msgstr "Информације примера употребе"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:108
+msgid "Reuser"
+msgstr "Корисник података"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:156
+msgid "Topic"
+msgstr "Тема"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:168
+msgid "Publication"
+msgstr "Публикација"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:188
+msgid "Contact the reuser"
+msgstr "Контактирајте корисника података"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:228
+#: udata_front/theme/govrs/templates/reuse/display.html:257
+msgid "Used datasets"
+msgstr "Коришћени скупови података"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:238
+#: udata_front/theme/govrs/templates/reuse/display.html:282
+msgid "More reuses"
+msgstr "Још примера употребе"
+
+#: udata_front/theme/govrs/templates/reuse/display.html:274
+msgid "Discussion between the organization and the community about this reuse."
+msgstr "Дискусија између организације и заједнице око овог примера употребе."
+
+#: udata_front/theme/govrs/templates/reuse/display.html:276
+msgid "Discussion between the owner and the community about this reuse."
+msgstr "Дискусија између власника и заједнице око овог примера употребе."
+
+#: udata_front/theme/govrs/templates/reuse/display.html:283
+msgid "Discover more reuses."
+msgstr "Открите још примера употребе."
+
+#: udata_front/theme/govrs/templates/reuse/list.html:6
+#, python-format
+msgid "%(site)s reuse search"
+msgstr "%(site)s претрага примера употребе"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:25
+msgid "Health"
+msgstr "Здравље"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:26
+msgid "Transport and mobility"
+msgstr "Транспорт и мобилност"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:27
+msgid "Housing and development"
+msgstr "Становање и развој"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:28
+msgid "Food and agriculture"
+msgstr "Храна и пољопривреда"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:29
+msgid "Culture and recreation"
+msgstr "Култура и рекреација"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:30
+msgid "Economy and business"
+msgstr "Економија и бизнис"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:31
+msgid "Environment and energy"
+msgstr "Животна средина и енергија"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:32
+msgid "Work and training"
+msgstr "Рад и тренинг"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:33
+msgid "Politics and public life"
+msgstr "Политика и јавни живот"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:34
+msgid "Safety and security"
+msgstr "Сигурност и заштита"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:35
+msgid "Education and research"
+msgstr "Образовање и истраживање"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:36
+msgid "Society and demography"
+msgstr "Друштво и демографија"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:37
+msgid "Law and justice"
+msgstr "Закон и право"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:38
+msgid "Open data tools"
+msgstr "Алати отворених података"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:39
+msgid "Others"
+msgstr "Остали"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:53
+#: udata_front/theme/govrs/templates/reuse/list.html:54
+msgid "Search in datasets"
+msgstr "Претрага скупова података"
+
+#: udata_front/theme/govrs/templates/reuse/list.html:62
+msgid "All"
+msgstr "Све"
+
+#: udata_front/theme/govrs/templates/security/change_password.html:10
+#: udata_front/theme/govrs/templates/security/change_password.html:14
+msgid "Change Password"
+msgstr "Промените лозинку"
+
+#: udata_front/theme/govrs/templates/security/change_password.html:12
+#: udata_front/theme/govrs/templates/security/forgot_password.html:12
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+"Заборавили сте лозинку? Унесите вашу лозинку испод, и ми ћемо послати мејлом "
+"инструкције за поставку нове."
+
+#: udata_front/theme/govrs/templates/security/forgot_password.html:10
+#: udata_front/theme/govrs/templates/security/forgot_password.html:14
+#: udata_front/theme/govrs/templates/security/reset_password.html:11
+#: udata_front/theme/govrs/templates/security/reset_password.html:12
+msgid "Reset Password"
+msgstr "Ресет лозинке"
+
+#: udata_front/theme/govrs/templates/security/login_user.html:16
+msgid "Forgot your password?"
+msgstr "Заборавили сте лозинку?"
+
+#: udata_front/theme/govrs/templates/security/login_user.html:18
+msgid "Recover your password"
+msgstr "Опоравак ваше лозинке"
+
+#: udata_front/theme/govrs/templates/security/login_user.html:23
+msgid "Confirmation instructions not received?"
+msgstr "Потврда да инструкције нису примљене?"
+
+#: udata_front/theme/govrs/templates/security/login_user.html:25
+msgid "Send the instructions again"
+msgstr "Пошаљите поново инструкције"
+
+#: udata_front/theme/govrs/templates/security/login_user.html:37
+msgid "Don't have an account?"
+msgstr "Немате налог?"
+
+#: udata_front/theme/govrs/templates/security/login_user.html:43
+msgid "Create an account"
+msgstr "Направите налог"
+
+#: udata_front/theme/govrs/templates/security/register_user.html:13
+msgid "Why create an account?"
+msgstr "Зашто направити налог?"
+
+#: udata_front/theme/govrs/templates/security/register_user.html:22
+#, python-format
+msgid ""
+"I have read and accept <a href=\"%(url)s\"> the terms and conditions of "
+"the service.</a>"
+msgstr ""
+"Прочитао сам и прихватио <a href=\"%(url)s\"> правила и услове "
+"услуге.</a>"
+
+#: udata_front/theme/govrs/templates/security/send_confirmation.html:10
+msgid "Resend confirmation instructions"
+msgstr "Поново пошаљи инструкције потврде"
+
+#: udata_front/theme/govrs/templates/security/send_confirmation.html:11
+msgid "Submit"
+msgstr "Поднеси"
+
+#: udata_front/theme/govrs/templates/site/dashboard.html:4
+#: udata_front/theme/govrs/templates/site/dashboard.html:14
+msgid "Dashboard"
+msgstr "Преглед"
+
+#: udata_front/theme/govrs/templates/site/dashboard.html:5
+msgid "Site metrics and activity"
+msgstr "Метрике и активност сајта"
+
+#: udata_front/theme/govrs/templates/site/dashboard.html:6
+msgid "activity"
+msgstr "активност"
+
+#: udata_front/theme/govrs/templates/site/dashboard.html:47
+msgid "Community activity"
+msgstr "Активност заједнице"
+
+#: udata_front/theme/govrs/templates/site/map.html:5
+#: udata_front/theme/govrs/templates/site/map.html:13
+msgid "Coverage map"
+msgstr "Мапа покривености"
+
+#: udata_front/theme/govrs/templates/site/map.html:6
+msgid "Display datasets on a map"
+msgstr "Прикажи скуп података на мапи"
+
+#: udata_front/theme/govrs/templates/site/map.html:7
+msgid "coverage"
+msgstr "покривеност"
+
+#: udata_front/theme/govrs/templates/site/map.html:7
+msgid "map"
+msgstr "мапа"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:5
+#, python-format
+msgid ""
+"Datasets related to the town of %(name)s with INSEE code %(code)s and "
+"postal code %(postal)s"
+msgstr ""
+"Скупови података повезани са градом %(name)s са INSEE кодом %(code)s и"
+"поштанским кодом %(postal)s"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:12
+#: udata_front/theme/govrs/templates/territories/departement.html:12
+#: udata_front/theme/govrs/templates/territories/region.html:12
+msgid "Region:"
+msgstr "Регион:"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:15
+#: udata_front/theme/govrs/templates/territories/departement.html:13
+msgid "County:"
+msgstr "Округ:"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:16
+msgid "Town:"
+msgstr "Град:"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:24
+#: udata_front/theme/govrs/templates/territories/departement.html:21
+#: udata_front/theme/govrs/templates/territories/region.html:20
+msgid "Source:"
+msgstr "Извор:"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:31
+#: udata_front/theme/govrs/templates/territories/departement.html:28
+#: udata_front/theme/govrs/templates/territories/region.html:27
+msgid "Submit your logo through:"
+msgstr "Достави свој лого путем:"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:32
+#: udata_front/theme/govrs/templates/territories/departement.html:29
+#: udata_front/theme/govrs/templates/territories/region.html:28
+msgid "we only expose logos under an open license"
+msgstr " само отварамо логое под отвореном лиценцом"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:42
+#: udata_front/theme/govrs/templates/territories/departement.html:39
+#: udata_front/theme/govrs/templates/territories/region.html:38
+#: udata_front/theme/govrs/templates/territories/search-result.html:13
+msgid "INSEE code:"
+msgstr "INSEE код:"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:48
+#: udata_front/theme/govrs/templates/territories/region.html:44
+#: udata_front/theme/govrs/templates/territories/search-result.html:15
+msgid "Postal code:"
+msgstr "Поштански код:"
+
+#: udata_front/theme/govrs/templates/territories/commune.html:55
+#: udata_front/theme/govrs/templates/territories/departement.html:45
+#: udata_front/theme/govrs/templates/territories/region.html:51
+msgid "Population:"
+msgstr "Популација:"
+
+#: udata_front/theme/govrs/templates/territories/departement.html:5
+#, python-format
+msgid "Datasets related to the county of %(name)s with INSEE code %(code)s"
+msgstr "Скупови података повезани са округом %(name)s са INSEE кодом %(code)s"
+
+#: udata_front/theme/govrs/templates/territories/departement.html:50
+msgid "Главни градови:"
+msgstr ""
+
+#: udata_front/theme/govrs/templates/territories/home.html:5
+#: udata_front/theme/govrs/templates/territories/home.html:6
+msgid "French regions"
+msgstr "Региони"
+
+#: udata_front/theme/govrs/templates/territories/home.html:14
+#: udata_front/theme/govrs/templates/territories/territory.html:17
+msgid ""
+"This page is no longer maintained. We are working on new territories "
+"features."
+msgstr ""
+"Ова страна се више не одржава. Радимо на новим садржајима "
+"за територије."
+
+#: udata_front/theme/govrs/templates/territories/home.html:18
+msgid "Click to navigate to the given region:"
+msgstr "Клик за навигацију на регион:"
+
+#: udata_front/theme/govrs/templates/territories/home.html:20
+msgid "Or sorted alphabetically:"
+msgstr "Или поређано према алфабету:"
+
+#: udata_front/theme/govrs/templates/territories/region.html:5
+#, python-format
+msgid "Datasets related to the region of %(name)s with INSEE code %(code)s"
+msgstr "Скупови података који су повезани са регионом %(name)s са INSEE кодом %(code)s"
+
+#: udata_front/theme/govrs/templates/territories/region.html:57
+msgid "Previously:"
+msgstr "Претходно:"
+
+#: udata_front/theme/govrs/templates/territories/region.html:64
+msgid "Counties:"
+msgstr "Окрузи:"
+
+#: udata_front/theme/govrs/templates/territories/search-result.html:22
+msgid "Administrative level"
+msgstr "Административни ниво"
+
+#: udata_front/theme/govrs/templates/territories/search-result.html:30
+msgid "Population"
+msgstr "Популација"
+
+#: udata_front/theme/govrs/templates/territories/territory.html:22
+msgid "This territory has been replaced by:"
+msgstr "Ова територија је замењена са:"
+
+#: udata_front/theme/govrs/templates/territories/territory.html:24
+msgid "since"
+msgstr "од"
+
+#: udata_front/theme/govrs/templates/territories/territory.html:37
+#, python-format
+msgid ""
+"If you want your datasets to appear in that list, the geographical zone "
+"associated must be the exact same one of that territory (%(code)s)."
+msgstr ""
+"Уколико желите да се ваш скуп података појави на тој листи, додељена географска "
+"зона мора бити иста као од територије(%(code)s)."
+
+#: udata_front/theme/govrs/templates/territories/territory.html:39
+msgid "You want to add your own datasets to that list?"
+msgstr "Желите да додате ваш скуп података на ову листу?"
+
+#: udata_front/theme/govrs/templates/territories/territory.html:40
+msgid "Log in / Sign up"
+msgstr "Пријава/Регистрација"
+
+#: udata_front/theme/govrs/templates/territories/territory.html:42
+msgid "and create resources for that territory."
+msgstr "и креирати ресурс за ту територију."
+
+#: udata_front/theme/govrs/templates/user/activity.html:5
+#: udata_front/theme/govrs/templates/user/base.html:67
+msgid "Activity"
+msgstr "Активност"
+
+#: udata_front/theme/govrs/templates/user/base.html:8
+#, python-format
+msgid "%(site)s %(username)s profile"
+msgstr "%(site)s %(username)s профил"
+
+#: udata_front/theme/govrs/templates/user/base.html:9
+msgid "user"
+msgstr корисник""
+
+#: udata_front/theme/govrs/templates/user/base.html:9
+msgid "profile"
+msgstr "профил"
+
+#: udata_front/theme/govrs/templates/user/base.html:38
+msgid "Work in progress"
+msgstr "Рад у току"
+
+#: udata_front/theme/govrs/templates/user/base.html:39
+msgid "The user page is currently being renovated to improve user experience."
+msgstr "Корисникова страна се тренутно реновира ради побољшања корисничког искуства."
+
+#: udata_front/theme/govrs/templates/user/base.html:78
+#, python-format
+msgid "%(num)d followed"
+msgid_plural "%(num)d followed"
+msgstr[0] "%(num)d прати"
+msgstr[1] "%(num)d прати"
+
+#: udata_front/theme/govrs/templates/user/base.html:108
+msgid "User's admin profile"
+msgstr "Корисников админ профил"
+
+#: udata_front/theme/govrs/templates/user/datasets.html:36
+#, python-format
+msgid "%(user)s has not yet published any dataset"
+msgstr "%(user)s није још увек објавио ниједан скуп података"
+
+#: udata_front/theme/govrs/templates/user/followers.html:31
+#, python-format
+msgid "%(user)s has no follower"
+msgstr "%(user)s нема пратилаца"
+
+#: udata_front/theme/govrs/templates/user/following.html:7
+msgid "Following"
+msgstr "Прати"
+
+#: udata_front/theme/govrs/templates/user/following.html:41
+#, python-format
+msgid "Follow %(num)d dataset"
+msgid_plural "Follow %(num)d datasets"
+msgstr[0] "Прати %(num)d скуп података"
+msgstr[1] "Прати %(num)d скупова података"
+
+#: udata_front/theme/govrs/templates/user/following.html:61
+#, python-format
+msgid "Follow %(num)d reuse"
+msgid_plural "Follow %(num)d reuses"
+msgstr[0] "Прати %(num)d пример употребе"
+msgstr[1] "Прати %(num)d примера употребе"
+
+#: udata_front/theme/govrs/templates/user/following.html:81
+#, python-format
+msgid "Follow %(num)d organization"
+msgid_plural "Follow %(num)d organizations"
+msgstr[0] "Прати %(num)d организацију"
+msgstr[1] "Прати %(num)d организације"
+
+#: udata_front/theme/govrs/templates/user/following.html:101
+#, python-format
+msgid "Follow %(num)d user"
+msgid_plural "Follow %(num)d users"
+msgstr[0] "Прати %(num)d корисника"
+msgstr[1] "Прати %(num)d корисника"
+
+#: udata_front/theme/govrs/templates/user/following.html:127
+#, python-format
+msgid "%(user)s is not following anyone"
+msgstr "%(user)s не прати никог"
+
+#: udata_front/theme/govrs/templates/user/list.html:8
+#, python-format
+msgid "%(site)s user search"
+msgstr "%(site)s претрага корисника"
+
+#: udata_front/theme/govrs/templates/user/list.html:9
+msgid "users"
+msgstr "корисници"
+
+#: udata_front/theme/govrs/templates/user/reuses.html:35
+#, python-format
+msgid "%(user)s has not yet published any reuse"
+msgstr "%(user)s још није објавио ниједан пример употребе"
+
+#: udata_front/views/dataset.py:23
+msgid "Last datasets"
+msgstr "Последњи скупови података"
+
+#: udata_front/views/reuse.py:19
+msgid "Last reuses"
+msgstr "Последњи примери употребе"
+
+#: udata_front/views/reuse.py:54
+msgid "Transfer"
+msgstr "Пренос"
+
+#: udata_front/views/site.py:198
+msgid "Community"
+msgstr "Заједица"
+
