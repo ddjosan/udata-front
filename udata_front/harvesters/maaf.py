@@ -19,33 +19,34 @@ from udata.utils import get_by
 log = logging.getLogger(__name__)
 
 GRANULARITIES = {
-    'commune': 'fr/town',
-    'france': 'country',
-    'pays': 'country',
+    'commune': 'град',
+    'france': 'држава',
+    'pays': 'држава',
+    'sr:municipality': 'општина',
 }
 
 RE_NAME = re.compile(r'(\{(?P<url>.+)\})?(?P<name>.+)$')
 
 ZONES = {
-    'country/fr': 'country/fr',
-    'country/monde': 'country-group/world',
+    'country/fr': 'држава',
+    'country/monde': 'група држава/свет',
 }
 
 
 FREQUENCIES = {
-    'ponctuelle': 'punctual',
-    'temps réel': 'continuous',
-    'quotidienne': 'daily',
-    'hebdomadaire': 'weekly',
-    'bimensuelle': 'semimonthly',
-    'mensuelle': 'monthly',
-    'bimestrielle': 'bimonthly',
-    'trimestrielle': 'quarterly',
-    'semestrielle': 'semiannual',
-    'annuelle': 'annual',
-    'triennale': 'triennial',
-    'quinquennale': 'quinquennial',
-    'aucune': 'unknown',
+    'ponctuelle': 'тачно',
+    'temps réel': 'континуирано',
+    'quotidienne': 'дневно',
+    'hebdomadaire': 'седмично',
+    'bimensuelle': 'два пута месечно',
+    'mensuelle': 'месечно',
+    'bimestrielle': 'Свака два месеца',
+    'trimestrielle': 'квартално',
+    'semestrielle': 'полугодишње',
+    'annuelle': 'годишње',
+    'triennale': 'Сваке три године',
+    'quinquennale': 'Сваких пет година',
+    'aucune': 'непознато',
 }
 
 XSD_PATH = os.path.join(os.path.dirname(__file__), 'maaf.xsd')

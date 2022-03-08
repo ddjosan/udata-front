@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: udata-front 1.2.4.dev0\n"
 "Report-Msgid-Bugs-To: data.gouv@data.gouv.fr\n"
-"POT-Creation-Date: 2022-03-06 03:27+0100\n"
-"PO-Revision-Date: 2022-03-06 03:27+0100\n"
+"POT-Creation-Date: 2022-03-06 22:52+0100\n"
+"PO-Revision-Date: 2022-03-06 22:52+0100\n"
 "Last-Translator: Data.gouv.fr Team <data.gouv@data.gouv.fr>\n"
 "Language: en\n"
 "Language-Team: Data.gouv.fr Team <data.gouv@data.gouv.fr>\n"
@@ -20,7 +20,6 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: udata_front/models.py:16 udata_front/theme/gouvfr/__init__.py:58
-#: udata_front/theme/govrs/__init__.py:58
 msgid "Reference Data"
 msgstr ""
 
@@ -117,18 +116,16 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: udata_front/theme/gouvfr/__init__.py:50 udata_front/theme/govrs/__init__.py:50
+#: udata_front/theme/gouvfr/__init__.py:50
 msgid "About"
 msgstr ""
 
 #: udata_front/theme/gouvfr/__init__.py:51 udata_front/theme/gouvfr/__init__.py:81
-#: udata_front/theme/govrs/__init__.py:51 udata_front/theme/govrs/__init__.py:81
 msgid "Contact us"
 msgstr ""
 
 #: udata_front/theme/gouvfr/__init__.py:59
 #: udata_front/theme/gouvfr/templates/home.html:20
-#: udata_front/theme/govrs/__init__.py:59
 #: udata_front/theme/govrs/templates/home.html:20
 msgid "Featured topics"
 msgstr ""
@@ -141,7 +138,7 @@ msgstr ""
 msgid "Data catalog"
 msgstr ""
 
-#: udata_front/theme/gouvfr/__init__.py:78 udata_front/theme/govrs/__init__.py:78
+#: udata_front/theme/gouvfr/__init__.py:78
 msgid "Platform's documentation"
 msgstr ""
 
@@ -149,7 +146,7 @@ msgstr ""
 msgid "Portal's API"
 msgstr ""
 
-#: udata_front/theme/gouvfr/__init__.py:80 udata_front/theme/govrs/__init__.py:80
+#: udata_front/theme/gouvfr/__init__.py:80
 msgid "Open data guides"
 msgstr ""
 
@@ -157,7 +154,7 @@ msgstr ""
 msgid "Licences"
 msgstr ""
 
-#: udata_front/theme/gouvfr/__init__.py:88 udata_front/theme/govrs/__init__.py:88
+#: udata_front/theme/gouvfr/__init__.py:88
 msgid "Terms of use"
 msgstr ""
 
@@ -165,7 +162,7 @@ msgstr ""
 msgid "Tracking and privacy"
 msgstr ""
 
-#: udata_front/theme/gouvfr/__init__.py:90 udata_front/theme/govrs/__init__.py:90
+#: udata_front/theme/gouvfr/__init__.py:90
 msgid "Accessibility"
 msgstr ""
 
@@ -206,7 +203,7 @@ msgstr ""
 #: udata_front/theme/gouvfr/templates/embed-dataset.html:206
 #: udata_front/theme/gouvfr/templates/header.html:47
 #: udata_front/theme/govrs/templates/embed-dataset.html:206
-#: udata_front/theme/govrs/templates/header.html:47
+#: udata_front/theme/govrs/templates/header.html:56
 msgid "Close"
 msgstr ""
 
@@ -291,55 +288,55 @@ msgid "Newsletter"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/footer.html:69
-#: udata_front/theme/govrs/templates/footer.html:64
+#: udata_front/theme/govrs/templates/footer.html:67
 msgid ""
 "Unless otherwise stated, all content of this site is availabe under <a "
 "href='{lo_url}'>Open Licence 2.0</a>"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/footer.html:76
-#: udata_front/theme/govrs/templates/footer.html:71
+#: udata_front/theme/govrs/templates/footer.html:72
 msgid "Go to Etalab’s blog"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/footer.html:81
-#: udata_front/theme/govrs/templates/footer.html:76
+#: udata_front/theme/govrs/templates/footer.html:77
 msgid "A DINUM department"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/footer.html:85
-#: udata_front/theme/govrs/templates/footer.html:80
+#: udata_front/theme/govrs/templates/footer.html:81
 msgid "DINUM website"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/footer.html:96
-#: udata_front/theme/govrs/templates/footer.html:91
+#: udata_front/theme/govrs/templates/footer.html:92
 msgid "Open-source engine"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/footer.html:103
 #: udata_front/theme/gouvfr/templates/footer.html:118
-#: udata_front/theme/govrs/templates/footer.html:98
-#: udata_front/theme/govrs/templates/footer.html:113
+#: udata_front/theme/govrs/templates/footer.html:99
+#: udata_front/theme/govrs/templates/footer.html:114
 msgid "Deployed version"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/footer.html:112
-#: udata_front/theme/govrs/templates/footer.html:107
+#: udata_front/theme/govrs/templates/footer.html:108
 msgid "Data.gouv.fr extension"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/footer.html:133
 #: udata_front/theme/gouvfr/templates/header.html:28
 #: udata_front/theme/gouvfr/templates/header.html:52
-#: udata_front/theme/govrs/templates/footer.html:128
+#: udata_front/theme/govrs/templates/footer.html:129
 #: udata_front/theme/govrs/templates/header.html:28
-#: udata_front/theme/govrs/templates/header.html:52
+#: udata_front/theme/govrs/templates/header.html:65
 msgid "Go back to home page"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/footer.html:146
-#: udata_front/theme/govrs/templates/footer.html:141
+#: udata_front/theme/govrs/templates/footer.html:142
 msgid "Language selector"
 msgstr ""
 
@@ -356,7 +353,7 @@ msgid "More information →"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/header.html:35
-#: udata_front/theme/govrs/templates/header.html:35
+#: udata_front/theme/govrs/templates/header.html:44
 msgid "Mobile navigation menu"
 msgstr ""
 
@@ -364,30 +361,30 @@ msgstr ""
 #: udata_front/theme/gouvfr/templates/header.html:107
 #: udata_front/theme/gouvfr/templates/header.html:108
 #: udata_front/theme/gouvfr/templates/header.html:110
-#: udata_front/theme/govrs/templates/header.html:37
-#: udata_front/theme/govrs/templates/header.html:107
-#: udata_front/theme/govrs/templates/header.html:108
-#: udata_front/theme/govrs/templates/header.html:110
+#: udata_front/theme/govrs/templates/header.html:46
+#: udata_front/theme/govrs/templates/header.html:120
+#: udata_front/theme/govrs/templates/header.html:121
+#: udata_front/theme/govrs/templates/header.html:123
 msgid "Search for data"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/header.html:42
-#: udata_front/theme/govrs/templates/header.html:42
+#: udata_front/theme/govrs/templates/header.html:51
 msgid "Open menu"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/header.html:46
-#: udata_front/theme/govrs/templates/header.html:46
+#: udata_front/theme/govrs/templates/header.html:55
 msgid "Close menu"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/header.html:70
-#: udata_front/theme/govrs/templates/header.html:70
+#: udata_front/theme/govrs/templates/header.html:83
 msgid "Administration"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/header.html:73
-#: udata_front/theme/govrs/templates/header.html:73
+#: udata_front/theme/govrs/templates/header.html:86
 msgid "Logout"
 msgstr ""
 
@@ -395,7 +392,7 @@ msgstr ""
 #: udata_front/theme/gouvfr/templates/security/login_user.html:12
 #: udata_front/theme/gouvfr/templates/security/login_user.html:13
 #: udata_front/theme/gouvfr/templates/territories/territory.html:41
-#: udata_front/theme/govrs/templates/header.html:77
+#: udata_front/theme/govrs/templates/header.html:90
 #: udata_front/theme/govrs/templates/security/login_user.html:12
 #: udata_front/theme/govrs/templates/security/login_user.html:13
 #: udata_front/theme/govrs/templates/territories/territory.html:41
@@ -405,14 +402,14 @@ msgstr ""
 #: udata_front/theme/gouvfr/templates/header.html:81
 #: udata_front/theme/gouvfr/templates/security/register_user.html:10
 #: udata_front/theme/gouvfr/templates/security/register_user.html:26
-#: udata_front/theme/govrs/templates/header.html:81
+#: udata_front/theme/govrs/templates/header.html:94
 #: udata_front/theme/govrs/templates/security/register_user.html:10
 #: udata_front/theme/govrs/templates/security/register_user.html:26
 msgid "Sign up"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/header.html:92
-#: udata_front/theme/govrs/templates/header.html:92
+#: udata_front/theme/govrs/templates/header.html:105
 msgid "Main navigation menu"
 msgstr ""
 
@@ -443,7 +440,6 @@ msgid "home"
 msgstr ""
 
 #: udata_front/theme/gouvfr/templates/home.html:18
-#: udata_front/theme/govrs/templates/home.html:18
 msgid "Open platform for French public data"
 msgstr ""
 
@@ -2474,6 +2470,10 @@ msgstr ""
 #: udata_front/theme/govrs/templates/user/reuses.html:35
 #, python-format
 msgid "%(user)s has not yet published any reuse"
+msgstr ""
+
+#: udata_front/theme/govrs/templates/home.html:18
+msgid "REPUBLIKA SRBIJA - Portal otvorenih podataka"
 msgstr ""
 
 #: udata_front/views/dataset.py:23

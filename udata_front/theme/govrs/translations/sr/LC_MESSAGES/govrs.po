@@ -152,7 +152,7 @@ msgstr "Преузмите са "
 #: udata_front/theme/govrs/templates/dataset/display.html:148
 #: udata_front/theme/govrs/templates/embed-dataset.html:177
 msgid "Producer"
-msgstr "Произвео"
+msgstr "Извор"
 
 #: udata_front/theme/govrs/templates/embed-dataset.html:183
 msgid "Uploader"
@@ -171,7 +171,7 @@ msgstr "Затворите"
 #: udata_front/theme/govrs/templates/embed-dataset.html:206
 #: udata_front/theme/govrs/templates/reuse/display.html:192
 msgid "Embed"
-msgstr "Уградите"
+msgstr "Интеграција"
 
 #: udata_front/theme/govrs/templates/dataset/display.html:222
 #: udata_front/theme/govrs/templates/dataset/search-result.html:46
@@ -530,7 +530,7 @@ msgstr "No OAuth clients"
 
 #: udata_front/theme/govrs/templates/api/admin.html:53
 msgid "Add a client"
-msgstr "Додај клијента"
+msgstr "Додајте клијента"
 
 #: udata_front/theme/govrs/templates/api/oauth_authorize.html:3
 msgid "External application authorization"
@@ -592,11 +592,11 @@ msgstr "ресурси"
 #: udata_front/theme/govrs/templates/organization/producer-summary.html:44
 #: udata_front/theme/govrs/templates/reuse/list.html:7
 msgid "reuses"
-msgstr "примери употребе"
+msgstr "примера употребе"
 
 #: udata_front/theme/govrs/templates/dataset/display.html:13
 msgid "dataset"
-msgstr "скупови података"
+msgstr "скуп података"
 
 #: udata_front/theme/govrs/templates/dataset/display.html:19
 #: udata_front/theme/govrs/templates/reuse/display.html:18
@@ -753,7 +753,11 @@ msgstr "Учествујте"
 #: udata_front/theme/govrs/templates/dataset/display.html:423
 #: udata_front/theme/govrs/templates/reuse/display.html:183
 msgid "Add a reuse"
-msgstr "Додај пример употребе"
+msgstr "Додајте пример употребе"
+
+#: udata_front/theme/govrs/templates/dataset/display.html:281
+msgid "Contact the producer"
+msgstr "Контакт"
 
 #: udata_front/theme/govrs/templates/dataset/display.html:281
 msgid "Contact the 	"
@@ -843,7 +847,7 @@ msgstr "Пратиоци"
 msgid "%(num)d follower"
 msgid_plural "%(num)d followers"
 msgstr[0] "%(num)d пратилац"
-msgstr[1] "%(num)d пратиоци"
+msgstr[1] "%(num)d пратилаца"
 
 #: udata_front/theme/govrs/templates/dataset/list.html:18
 #, python-format
@@ -862,7 +866,7 @@ msgstr "претрага"
 #: udata_front/theme/govrs/templates/organization/producer-summary.html:38
 #: udata_front/theme/govrs/templates/reuse/card.html:18
 msgid "datasets"
-msgstr "скупови података"
+msgstr "скуповa података"
 
 #: udata_front/theme/govrs/templates/dataset/list.html:39
 #: udata_front/theme/govrs/templates/dataset/list.html:40
@@ -904,7 +908,7 @@ msgstr "Копирајте пермалинк у клипборд"
 
 #: udata_front/theme/govrs/templates/dataset/resource/card.html:39
 msgid "Resource link"
-msgstr "Линк ресурса"
+msgstr "Веза ресурса"
 
 #: udata_front/theme/govrs/templates/dataset/resource/card.html:48
 msgid "Download resource"
@@ -1259,7 +1263,7 @@ msgstr "Ресет лозинке"
 
 #: udata_front/theme/govrs/templates/mail/security/confirmation_instructions.html:6
 msgid "Please confirm your email through the link below:"
-msgstr "Молимо потврдите вашу мејл адресу путем линка испод:"
+msgstr "Молимо потврдите вашу мејл адресу путем везе испод:"
 
 #: udata_front/theme/govrs/templates/mail/security/confirmation_instructions.html:14
 msgid "Confirm my account"
@@ -1267,7 +1271,7 @@ msgstr "Потврди мој налог"
 
 #: udata_front/theme/govrs/templates/mail/security/login_instructions.html:6
 msgid "You can log into your account through the link below:"
-msgstr "Можете се пријавити на овај налог путем линка испод:"
+msgstr "Можете се пријавити на овај налог путем везе испод:"
 
 #: udata_front/theme/govrs/templates/mail/security/login_instructions.html:13
 msgid "Login now"
@@ -1287,7 +1291,7 @@ msgid ""
 "To reset your password, please confirm your request through the link "
 "below:"
 msgstr ""
-"За ресет лозинке, молимо потврдите ваш захтев путем линка "
+"За ресет лозинке, молимо потврдите ваш захтев путем везе "
 "испод:"
 
 #: udata_front/theme/govrs/templates/mail/security/reset_instructions.html:18
@@ -1310,7 +1314,7 @@ msgid ""
 "link below:"
 msgstr ""
 "Да активирате налог, молимо потврдите вашу мејл адресу путем "
-"линка испод:"
+"везе испод:"
 
 #: udata_front/theme/govrs/templates/mail/security/welcome.html:18
 msgid "Confirm now"

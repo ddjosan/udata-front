@@ -86,7 +86,7 @@ nav.Bar('govrs_support', support_links)
 footer_links = [
     nav.Item(_('Licences'), 'govrs.show_page', args={'slug': 'legal/licences'}),
     # nav.Item(_('Terms of use'), 'site.terms'),
-    # nav.Item(_('Tracking and privacy'), 'gouvfr.suivi'),
+    nav.Item(_('Tracking and privacy'), 'gouvfr.suivi'),
     # nav.Item(_('Accessibility'), 'govrs.show_page', args={'slug': 'legal/accessibility'}),
 ]
 
