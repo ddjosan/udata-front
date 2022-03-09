@@ -733,7 +733,7 @@ msgstr "Географске димензије"
 #: udata_front/theme/govrs/templates/dataset/display.html:240
 #: udata_front/theme/govrs/templates/dataset/search-result.html:69
 msgid "Territorial coverage granularity"
-msgstr "Грануларност територијалне покривености"
+msgstr "Просторна грануларност"
 
 #: udata_front/theme/govrs/templates/dataset/display.html:244
 msgid "Territorial coverage"
