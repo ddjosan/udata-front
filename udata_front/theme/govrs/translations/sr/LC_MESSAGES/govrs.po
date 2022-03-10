@@ -336,7 +336,7 @@ msgstr "Почетна"
 #: udata_front/theme/govrs/templates/home.html:5
 #, python-format
 msgid "%(site)s home"
-msgstr "%(site) почетна"
+msgstr "%(site)s почетна"
 
 #: udata_front/theme/govrs/templates/home.html:6
 msgid "home"
